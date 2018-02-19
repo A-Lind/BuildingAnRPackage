@@ -1,0 +1,31 @@
+---
+title: "Fars functions (Coursera Project)"
+author: "Andreas Lind"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Fars functions (Coursera Project)}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is a package created as a part of an e-learning course on R taught at Coursera <https://www.coursera.org/specializations/r>.
+
+## Package info
+
+This package gives access to the following functions:
+
+- `fars_read()` A function that checks if a file exists (the (file specified in the `filename` argument)) - throws an error if it does not - and then silently uses `read_csv` from the readr-package to read the csv-file into the current environment
+- `make_filename()` A function that creates custom filenames based on a year for the FARS files.
+- `fars_read_years()` A function that takes a vector of years and batch reads them into R. If there is no matching data for one or more of the years specified in the argument years, the function throws a warning.
+- `fars_summarize_years()` A function that counts the number of observations by month for the years specified by the years argument.
+- `fars_map_state()` A function takes two arguments State Number and Year and draws a map with a point pr. observation.
+
+
