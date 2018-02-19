@@ -1,10 +1,10 @@
 ---
-title: "Fars functions (Coursera Project)"
+title: "FARS functions (Coursera Project)"
 author: "Andreas Lind"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Fars functions (Coursera Project)}
+  %\VignetteIndexEntry{FARS functions (Coursera Project)}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
