@@ -2,16 +2,142 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_read}
 \alias{fars_read}
+\alias{fars_read}
+\alias{fars_read}
+\alias{fars_read}
+\alias{fars_read}
+\alias{fars_read}
+\alias{fars_read}
+\alias{fars_read}
 \title{Read a CSV-file into R silently}
 \usage{
+fars_read(filename)
+
+fars_read(filename)
+
+fars_read(filename)
+
+fars_read(filename)
+
+fars_read(filename)
+
+fars_read(filename)
+
+fars_read(filename)
+
 fars_read(filename)
 }
 \description{
 This is a function that checks if a file exists (the (file specified in the \code{filename} argument)) -
 throws an error if it does not - and then silently uses read_csv from the readr-package to read the csv-file
  into the current environment.
+
+This is a function that checks if a file exists (the (file specified in the \code{filename} argument)) -
+throws an error if it does not - and then silently uses read_csv from the readr-package to read the csv-file
+ into the current environment.
+
+This is a function that checks if a file exists (the (file specified in the \code{filename} argument)) -
+throws an error if it does not - and then silently uses read_csv from the readr-package to read the csv-file
+ into the current environment.
+
+This is a function that checks if a file exists (the (file specified in the \code{filename} argument)) -
+throws an error if it does not - and then silently uses read_csv from the readr-package to read the csv-file
+ into the current environment.
+
+This is a function that checks if a file exists (the (file specified in the \code{filename} argument)) -
+throws an error if it does not - and then silently uses read_csv from the readr-package to read the csv-file
+ into the current environment.
+
+This is a function that checks if a file exists (the (file specified in the \code{filename} argument)) -
+throws an error if it does not - and then silently uses read_csv from the readr-package to read the csv-file
+ into the current environment.
+
+This is a function that checks if a file exists (the (file specified in the \code{filename} argument)) -
+throws an error if it does not - and then silently uses read_csv from the readr-package to read the csv-file
+ into the current environment.
+
+This is a function that checks if a file exists (the (file specified in the \code{filename} argument)) -
+throws an error if it does not - and then silently uses read_csv from the readr-package to read the csv-file
+ into the current environment.
 }
 \details{
+@param filename A character string giving the file the function will read into R
+
+@return This function returns a data frame (a tibble) representing the data in the csv-file
+
+@importFrom readr read_csv
+ @importFrom dplyr tbl_df
+
+@examples
+write.csv("testdata.csv", data.frame(x = seq(1,10, 1), y = seq(1,10, 1), stringsAsFactors = F))
+fars_read("testdata.csv")
+
+@param filename A character string giving the file the function will read into R
+
+@return This function returns a data frame (a tibble) representing the data in the csv-file
+
+@importFrom readr read_csv
+ @importFrom dplyr tbl_df
+
+@examples
+write.csv("testdata.csv", data.frame(x = seq(1,10, 1), y = seq(1,10, 1), stringsAsFactors = F))
+fars_read("testdata.csv")
+
+@param filename A character string giving the file the function will read into R
+
+@return This function returns a data frame (a tibble) representing the data in the csv-file
+
+@importFrom readr read_csv
+ @importFrom dplyr tbl_df
+
+@examples
+write.csv("testdata.csv", data.frame(x = seq(1,10, 1), y = seq(1,10, 1), stringsAsFactors = F))
+fars_read("testdata.csv")
+
+@param filename A character string giving the file the function will read into R
+
+@return This function returns a data frame (a tibble) representing the data in the csv-file
+
+@importFrom readr read_csv
+ @importFrom dplyr tbl_df
+
+@examples
+write.csv("testdata.csv", data.frame(x = seq(1,10, 1), y = seq(1,10, 1), stringsAsFactors = F))
+fars_read("testdata.csv")
+
+@param filename A character string giving the file the function will read into R
+
+@return This function returns a data frame (a tibble) representing the data in the csv-file
+
+@importFrom readr read_csv
+ @importFrom dplyr tbl_df
+
+@examples
+write.csv("testdata.csv", data.frame(x = seq(1,10, 1), y = seq(1,10, 1), stringsAsFactors = F))
+fars_read("testdata.csv")
+
+@param filename A character string giving the file the function will read into R
+
+@return This function returns a data frame (a tibble) representing the data in the csv-file
+
+@importFrom readr read_csv
+ @importFrom dplyr tbl_df
+
+@examples
+write.csv("testdata.csv", data.frame(x = seq(1,10, 1), y = seq(1,10, 1), stringsAsFactors = F))
+fars_read("testdata.csv")
+
+@param filename A character string giving the file the function will read into R
+
+@return This function returns a data frame (a tibble) representing the data in the csv-file
+
+@importFrom readr read_csv
+ @importFrom dplyr tbl_df
+
+@examples
+write.csv("testdata.csv", data.frame(x = seq(1,10, 1), y = seq(1,10, 1), stringsAsFactors = F))
+fars_read("testdata.csv")
+
 @param filename A character string giving the file the function will read into R
 
 @return This function returns a data frame (a tibble) representing the data in the csv-file

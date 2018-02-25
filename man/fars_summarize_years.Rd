@@ -2,11 +2,53 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_summarize_years}
 \alias{fars_summarize_years}
+\alias{fars_summarize_years}
+\alias{fars_summarize_years}
+\alias{fars_summarize_years}
+\alias{fars_summarize_years}
+\alias{fars_summarize_years}
+\alias{fars_summarize_years}
+\alias{fars_summarize_years}
 \title{Summarize FARS' years}
 \usage{
 fars_summarize_years(years)
+
+fars_summarize_years(years)
+
+fars_summarize_years(years)
+
+fars_summarize_years(years)
+
+fars_summarize_years(years)
+
+fars_summarize_years(years)
+
+fars_summarize_years(years)
+
+fars_summarize_years(years)
+}
+\arguments{
+\item{years}{Numeric vector of FARS' years to read}
+}
+\value{
+A wide format data frame (tibble). One column for year and MONTH. Each value is the count of observations
+for the given year-month
 }
 \description{
+This function counts the number of observations by month for the years specified by the \code{years} argument
+
+This function counts the number of observations by month for the years specified by the \code{years} argument
+
+This function counts the number of observations by month for the years specified by the \code{years} argument
+
+This function counts the number of observations by month for the years specified by the \code{years} argument
+
+This function counts the number of observations by month for the years specified by the \code{years} argument
+
+This function counts the number of observations by month for the years specified by the \code{years} argument
+
+This function counts the number of observations by month for the years specified by the \code{years} argument
+
 This function counts the number of observations by month for the years specified by the \code{years} argument
 }
 \details{
@@ -24,4 +66,98 @@ for the given year-month
   \dontrun{fars_summarize_years(2013:2015)}
 
 @export
+
+@param years Numeric vector of FARS' years to read
+
+@return A wide format data frame (tibble). One column for year and MONTH. Each value is the count of observations
+for the given year-month
+
+@importFrom dplyr bind_rows
+  @importFrom dplyr group_by
+  @importFrom dplyr summarize
+  @importFrom tidyr spread
+
+@examples
+  fars_summarize_years(2013:2015)
+
+@export
+
+@param years Numeric vector of FARSÂ´years to read
+
+@return A wide format data frame (tibble). One column for year and MONTH. Each value is the count of observations
+for the given year-month
+
+@importFrom dplyr bind_rows
+  @importFrom dplyr group_by
+  @importFrom dplyr summarize
+  @importFrom tidyr spread
+
+@examples
+  \dontrun{fars_summarize_years(2013:2015)}
+
+@export
+
+@param years Numeric vector of FARS' years to read
+
+@return A wide format data frame (tibble). One column for year and MONTH. Each value is the count of observations
+for the given year-month
+
+@importFrom dplyr bind_rows
+  @importFrom dplyr group_by
+  @importFrom dplyr summarize
+  @importFrom tidyr spread
+
+@examples
+  fars_summarize_years(2013:2015)
+
+@export
+
+@param years Numeric vector of FARSÂ´years to read
+
+@return A wide format data frame (tibble). One column for year and MONTH. Each value is the count of observations
+for the given year-month
+
+@importFrom dplyr bind_rows
+  @importFrom dplyr group_by
+  @importFrom dplyr summarize
+  @importFrom tidyr spread
+
+@examples
+  \dontrun{fars_summarize_years(2013:2015)}
+
+@export
+
+@param years Numeric vector of FARS' years to read
+
+@return A wide format data frame (tibble). One column for year and MONTH. Each value is the count of observations
+for the given year-month
+
+@importFrom dplyr bind_rows
+  @importFrom dplyr group_by
+  @importFrom dplyr summarize
+  @importFrom tidyr spread
+
+@examples
+  fars_summarize_years(2013:2015)
+
+@export
+
+@param years Numeric vector of FARSÂ´years to read
+
+@return A wide format data frame (tibble). One column for year and MONTH. Each value is the count of observations
+for the given year-month
+
+@importFrom dplyr bind_rows
+  @importFrom dplyr group_by
+  @importFrom dplyr summarize
+  @importFrom tidyr spread
+
+@examples
+  \dontrun{fars_summarize_years(2013:2015)}
+
+@export
+}
+\examples{
+  fars_summarize_years(2013:2015)
+
 }
