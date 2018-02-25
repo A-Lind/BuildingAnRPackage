@@ -1,15 +1,3 @@
----
-output: github_document
----
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
-)
-```
-
 # Building An R Package
 
 This is a package created as a part of an e-learning course on R taught at Coursera <https://www.coursera.org/specializations/r>.
