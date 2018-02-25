@@ -2,113 +2,20 @@
 % Please edit documentation in R/fars_functions.R
 \name{make_filename}
 \alias{make_filename}
-\alias{make_filename}
-\alias{make_filename}
-\alias{make_filename}
-\alias{make_filename}
-\alias{make_filename}
-\alias{make_filename}
-\alias{make_filename}
 \title{Make a filename for the FARS files}
 \usage{
-make_filename(year)
-
-make_filename(year)
-
-make_filename(year)
-
-make_filename(year)
-
-make_filename(year)
-
-make_filename(year)
-
-make_filename(year)
-
 make_filename(year)
 }
 \arguments{
 \item{year}{Numeric. A number to use for the custom filename}
-
-\item{year}{Numeric. A number to use for the custom filename}
-
-\item{year}{Numeric. A number to use for the custom filename}
 }
 \value{
-A string with the custom filename
-
-A string with the custom filename
-
 A string with the custom filename
 }
 \description{
 This function creates custom filenames based on a year for the FARS files.
-
-This function creates custom filenames based on a year for the FARS files.
-
-This function creates custom filenames based on a year for the FARS files.
-
-This function creates custom filenames based on a year for the FARS files.
-
-This function creates custom filenames based on a year for the FARS files.
-
-This function creates custom filenames based on a year for the FARS files.
-
-This function creates custom filenames based on a year for the FARS files.
-
-This function creates custom filenames based on a year for the FARS files.
-}
-\details{
-@param year Numeric. A number to use for the custom filename
-
-@return A string with the custom filename
-
-@examples
- make_filename(2015)
-
-@export
-
-@param year Numeric. A number to use for the custom filename
-
-@return A string with the custom filename
-
-@examples
- make_filename(2015)
-
-@export
-
-@param year Numeric. A number to use for the custom filename
-
-@return A string with the custom filename
-
-@examples
- make_filename(2015)
-
-@export
-
-@param year Numeric. A number to use for the custom filename
-
-@return A string with the custom filename
-
-@examples
- make_filename(2015)
-
-@export
-
-@param year Numeric. A number to use for the custom filename
-
-@return A string with the custom filename
-
-@examples
- make_filename(2015)
-
-@export
 }
 \examples{
- make_filename(2015)
-
- make_filename(2015)
-
  make_filename(2015)
 
 }

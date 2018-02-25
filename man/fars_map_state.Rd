@@ -2,79 +2,16 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_map_state}
 \alias{fars_map_state}
-\alias{fars_map_state}
-\alias{fars_map_state}
-\alias{fars_map_state}
-\alias{fars_map_state}
-\alias{fars_map_state}
-\alias{fars_map_state}
-\alias{fars_map_state}
 \title{Make a map for a given year and state}
 \usage{
-fars_map_state(state.num, year)
-
-fars_map_state(state.num, year)
-
-fars_map_state(state.num, year)
-
-fars_map_state(state.num, year)
-
-fars_map_state(state.num, year)
-
-fars_map_state(state.num, year)
-
-fars_map_state(state.num, year)
-
 fars_map_state(state.num, year)
 }
 \arguments{
 \item{state.num}{Integer. The state identifier}
 
 \item{year}{Numeric. Year of the FARS data}
-
-\item{state.num}{Integer. The state identifier}
-
-\item{year}{Numeric. Year of the FARS data}
-
-\item{state.num}{Integer. The state identifier}
-
-\item{year}{Numeric. Year of the FARS data}
-
-\item{state.num}{Integer. The state identifier}
-
-\item{year}{Numeric. Year of the FARS data}
-
-\item{state.num}{Integer. The state identifier}
-
-\item{year}{Numeric. Year of the FARS data}
-
-\item{state.num}{Integer. The state identifier}
-
-\item{year}{Numeric. Year of the FARS data}
-
-\item{state.num}{Integer. The state identifier}
-
-\item{year}{Numeric. Year of the FARS data}
-
-\item{state.num}{Integer. The state identifier}
-
-\item{year}{Numeric. Year of the FARS data}
 }
 \value{
-A map
-
-A map
-
-A map
-
-A map
-
-A map
-
-A map
-
-A map
-
 A map
 }
 \description{
@@ -82,57 +19,8 @@ This function takes two arguments State Number \code{state.num} and Year \code{y
 pr. observation. It throws an error if state.num and/or year is not the dataset.
 It returns NULL if no observations to plot.
 The function uses the previously defined functions make_filename and fars_read.
-
-This function takes two arguments State Number \code{state.num} and Year \code{year} and draws a map with a point
-pr. observation. It throws an error if state.num and/or year is not the dataset.
-It returns NULL if no observations to plot.
-The function uses the previously defined functions make_filename and fars_read.
-
-This function takes two arguments State Number \code{state.num} and Year \code{year} and draws a map with a point
-pr. observation. It throws an error if state.num and/or year is not the dataset.
-It returns NULL if no observations to plot.
-The function uses the previously defined functions make_filename and fars_read.
-
-This function takes two arguments State Number \code{state.num} and Year \code{year} and draws a map with a point
-pr. observation. It throws an error if state.num and/or year is not the dataset.
-It returns NULL if no observations to plot.
-The function uses the previously defined functions make_filename and fars_read.
-
-This function takes two arguments State Number \code{state.num} and Year \code{year} and draws a map with a point
-pr. observation. It throws an error if state.num and/or year is not the dataset.
-It returns NULL if no observations to plot.
-The function uses the previously defined functions make_filename and fars_read.
-
-This function takes two arguments State Number \code{state.num} and Year \code{year} and draws a map with a point
-pr. observation. It throws an error if state.num and/or year is not the dataset.
-It returns NULL if no observations to plot.
-The function uses the previously defined functions make_filename and fars_read.
-
-This function takes two arguments State Number \code{state.num} and Year \code{year} and draws a map with a point
-pr. observation. It throws an error if state.num and/or year is not the dataset.
-It returns NULL if no observations to plot.
-The function uses the previously defined functions make_filename and fars_read.
-
-This function takes two arguments State Number \code{state.num} and Year \code{year} and draws a map with a point
-pr. observation. It throws an error if state.num and/or year is not the dataset.
-It returns NULL if no observations to plot.
-The function uses the previously defined functions make_filename and fars_read.
 }
 \examples{
-\dontrun{fars_map_state(1, 2013)}
-
-\dontrun{fars_map_state(1, 2013)}
-
-\dontrun{fars_map_state(1, 2013)}
-
-\dontrun{fars_map_state(1, 2013)}
-
-\dontrun{fars_map_state(1, 2013)}
-
-\dontrun{fars_map_state(1, 2013)}
-
-\dontrun{fars_map_state(1, 2013)}
-
 \dontrun{fars_map_state(1, 2013)}
 
 }

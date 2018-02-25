@@ -2,29 +2,8 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_read_years}
 \alias{fars_read_years}
-\alias{fars_read_years}
-\alias{fars_read_years}
-\alias{fars_read_years}
-\alias{fars_read_years}
-\alias{fars_read_years}
-\alias{fars_read_years}
-\alias{fars_read_years}
 \title{Import multiple years of data}
 \usage{
-fars_read_years(years)
-
-fars_read_years(years)
-
-fars_read_years(years)
-
-fars_read_years(years)
-
-fars_read_years(years)
-
-fars_read_years(years)
-
-fars_read_years(years)
-
 fars_read_years(years)
 }
 \arguments{
@@ -36,113 +15,7 @@ A list of data frames (tibbles). Each data frame consists of two columns: MONTH 
 \description{
 This function takes a vector of years and batch reads them into R. If there is no matching data for one or more of
 the years specified in the argument \code{years}, the function throws a warning.
-
-This function takes a vector of years and batch reads them into R. If there is no matching data for one or more of
-the years specified in the argument \code{years}, the function throws a warning.
-
-This function takes a vector of years and batch reads them into R. If there is no matching data for one or more of
-the years specified in the argument \code{years}, the function throws a warning.
-
-This function takes a vector of years and batch reads them into R. If there is no matching data for one or more of
-the years specified in the argument \code{years}, the function throws a warning.
-
-This function takes a vector of years and batch reads them into R. If there is no matching data for one or more of
-the years specified in the argument \code{years}, the function throws a warning.
-
-This function takes a vector of years and batch reads them into R. If there is no matching data for one or more of
-the years specified in the argument \code{years}, the function throws a warning.
-
-This function takes a vector of years and batch reads them into R. If there is no matching data for one or more of
-the years specified in the argument \code{years}, the function throws a warning.
-
-This function takes a vector of years and batch reads them into R. If there is no matching data for one or more of
-the years specified in the argument \code{years}, the function throws a warning.
-}
-\details{
-@param years Numeric vector of years to read
-
-@return A list of data frames (tibbles). Each data frame consists of two columns: MONTH and year
-
-@importFrom dplyr mutate
-  @importFrom dplyr select
-  @importFrom magrittr "%>%"
-
-@examples
-\dontrun{fars_read_years(2013:2015)}
-  @export
-
-@param years Numeric vector of years to read
-
-@return A list of data frames (tibbles). Each data frame consists of two columns: MONTH and year
-
-@importFrom dplyr mutate
-  @importFrom dplyr select
-  @importFrom magrittr "%>%"
-
-@examples
-fars_read_years(2013:2015)
-  @export
-
-@param years Numeric vector of years to read
-
-@return A list of data frames (tibbles). Each data frame consists of two columns: MONTH and year
-
-@importFrom dplyr mutate
-  @importFrom dplyr select
-  @importFrom magrittr "%>%"
-
-@examples
-\dontrun{fars_read_years(2013:2015)}
-  @export
-
-@param years Numeric vector of years to read
-
-@return A list of data frames (tibbles). Each data frame consists of two columns: MONTH and year
-
-@importFrom dplyr mutate
-  @importFrom dplyr select
-  @importFrom magrittr "%>%"
-
-@examples
-fars_read_years(2013:2015)
-  @export
-
-@param years Numeric vector of years to read
-
-@return A list of data frames (tibbles). Each data frame consists of two columns: MONTH and year
-
-@importFrom dplyr mutate
-  @importFrom dplyr select
-  @importFrom magrittr "%>%"
-
-@examples
-\dontrun{fars_read_years(2013:2015)}
-  @export
-
-@param years Numeric vector of years to read
-
-@return A list of data frames (tibbles). Each data frame consists of two columns: MONTH and year
-
-@importFrom dplyr mutate
-  @importFrom dplyr select
-  @importFrom magrittr "%>%"
-
-@examples
-fars_read_years(2013:2015)
-  @export
-
-@param years Numeric vector of years to read
-
-@return A list of data frames (tibbles). Each data frame consists of two columns: MONTH and year
-
-@importFrom dplyr mutate
-  @importFrom dplyr select
-  @importFrom magrittr "%>%"
-
-@examples
-\dontrun{fars_read_years(2013:2015)}
-  @export
 }
 \examples{
-fars_read_years(2013:2015)
+\dontrun{fars_read_years(2013:2015)}
 }
