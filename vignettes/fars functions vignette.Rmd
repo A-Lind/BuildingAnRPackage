@@ -18,6 +18,8 @@ knitr::opts_chunk$set(
 
 This is a package created as a part of an e-learning course on R taught at Coursera <https://www.coursera.org/specializations/r>.
 
+
+
 ## Package info
 
 This package gives access to the following functions:
